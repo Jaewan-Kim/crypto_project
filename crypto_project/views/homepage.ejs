@@ -1,9 +1,16 @@
+<div class ="wrapper">
+
 <form action="/sendmessage">
-  <label>Email address of the receiver:</label>
-  <input type="text" name="senderemail" required=""></input>
+  <label class = "lb">Email address of the receiver:</label>
+  <input class = "emailbox" type="text" name="senderemail" required=""></input>
   <br></br>
-  <label>Please enter the message below</label><br></br>
-  <textarea name="message" required=""></textarea>
+  <label class = "lb">Please enter the message below</label><br></br>
+  <textarea class= "userinput" name="message" required=""></textarea>
   <br></br>
-  <button type="submit">send</button>
+  <button class ="submitbutton" type="submit">send</button>
 </form>
+
+</div>
+<div id="status">
+<% if (req.session.flash && req.session.flash.error) { %><%=req.flash('error')%><% } %>
+</div>

@@ -1,0 +1,45 @@
+.lb{
+	font-family:"Arial";
+	font-size:24px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.emailbox{
+	font-family:"Arial";
+	font-size:24px;
+	margin-top:10px;
+	width:400px;
+	border-radius:3px;
+
+}
+
+.userinput{
+	font-family:"Arial";
+	font-size:16px;
+	width:730px;
+	margin-left:10px;
+	height:300px;
+	border-radius:3px;
+}
+
+.wrapper{
+	background-color:rgb(140, 179, 242);
+	width:760px;
+	border-radius:10px;
+
+}
+
+.submitbutton{
+	background-color:rgb(186, 255, 205);
+	margin-left:10px;
+	margin-bottom:10px;
+	font-family:"Arial";
+	font-size:24px;
+	border-radius:5px;
+}
+
+#status{
+	font-family:"Arial";
+	font-size:24px;
+}

@@ -13,8 +13,9 @@ module.exports = {
 		var spawn = require("child_process").spawn;
 		var pythonProcess = spawn('python',["smtp.py", email, message]);
 		pythonProcess.stdout.on('data', function (data){
-			console.log(data)
 		});
+		req.flash('error', 'Successfully sent the email!')
+		res.view('homepage')
 
 
 	}
